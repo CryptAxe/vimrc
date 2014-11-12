@@ -133,3 +133,8 @@ map <Space>e <Plug>CamelCaseMotion_e
 " }}}
 
 colorscheme wombat256mod
+
+if v:version > 700
+  set cursorline
+  hi CursorLine guibg=#000001
+endif
