@@ -91,6 +91,7 @@ autocmd WinEnter * call NERDTreeQuit()
 " General {{{
 
 set colorcolumn=79
+set background=dark
 colorscheme gruvbox
 set nocompatible
 filetype off
