@@ -27,9 +27,6 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'szw/vim-ctrlspace' 
 
 "Front End
-Plugin 'pangloss/vim-javascript'
-Plugin 'ap/vim-css-color'
-Plugin 'miripiruni/CSScomb-for-Vim'
 
 "Color Schemes
 Plugin 'vim-scripts/wombat256.vim'
