@@ -126,8 +126,6 @@ set cursorline
 " Remove trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
 
-" Highlight characters that go over 80 spaces
-callmatchadd('ColorColumn', '\%81v', red)
 
 " }}}
 
