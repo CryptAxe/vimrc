@@ -87,6 +87,10 @@ set linespace=3
 
 " Remove trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
+
+" Highlight characters that go over 80 spaces
+callmatchadd('ColorColumn', '\%81v'. 100)
+
 " }}}
 
 " Some Useful Key Mappings {{{
