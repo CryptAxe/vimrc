@@ -179,5 +179,5 @@ colorscheme wombat256mod
 hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 
 " Highlight chars over 80
-highlight OverLength ctermbg=darkred ctermfg=white guibg=#FFD9D9
+highlight OverLength ctermbg=darkgrey ctermfg=white guibg=#FFD9D9
 match OverLength /\%>80v.\+/
