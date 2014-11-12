@@ -180,7 +180,7 @@ map <Space>b <Plug>CamelCaseMotion_b
 map <Space>e <Plug>CamelCaseMotion_e
 " }}}
 
-colorscheme wombat256mod
+" colorscheme wombat256mod
 
 " Highlight working line
 hi CursorLine cterm=NONE ctermbg=darkgrey ctermfg=white
