@@ -121,6 +121,7 @@ set noswapfile
 set nobackup
 set number
 set linespace=3
+set cursorline
 
 " Remove trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
