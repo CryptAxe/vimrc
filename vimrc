@@ -183,7 +183,7 @@ map <Space>e <Plug>CamelCaseMotion_e
 colorscheme wombat256mod
 
 " Highlight working line
-hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+hi CursorLine cterm=NONE ctermbg=darkgrey ctermfg=white
 
 " Highlight chars over 80
 highlight OverLength ctermbg=darkgrey ctermfg=white guibg=#FFD9D9
