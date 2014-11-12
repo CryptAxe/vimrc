@@ -178,7 +178,4 @@ map <Space>e <Plug>CamelCaseMotion_e
 colorscheme wombat256mod
 
 " Highlight working line
-if v:version > 700
-  set cursorline
-  hi CursorLine guibg=#000001
-endif
+hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
