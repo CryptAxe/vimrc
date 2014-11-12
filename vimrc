@@ -179,3 +179,7 @@ colorscheme wombat256mod
 
 " Highlight working line
 hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+
+" Highlight chars over 80
+highlight OverLength ctermbg=darkred ctermfg=white guibg=#FFD9D9
+match OverLength /\%>80v.\+/
