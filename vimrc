@@ -6,7 +6,7 @@ Plugin 'gmarik/vundle'
 
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
-lugin 'jistr/vim-nerdtree-tabs'
+Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'kristijanhusak/vim-multiple-cursors'
 Plugin 'joom/vim-commentary'
