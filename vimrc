@@ -5,6 +5,8 @@ call vundle#begin()
 Plugin 'gmarik/vundle'
 
 Plugin 'bling/vim-airline'
+Plugin 'scrooloose/nerdtree'
+lugin 'jistr/vim-nerdtree-tabs'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'kristijanhusak/vim-multiple-cursors'
 Plugin 'joom/vim-commentary'
@@ -39,6 +41,43 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 0 "change 0 to 1 if you have a powerline font
 set laststatus=2
 set t_Co=256
+" }}}
+
+" NERDTree {{{
+let g:NERDTreeMapChangeRoot =  "`"
+
+nmap <Leader>] :NERDTreeTabsToggle<CR>
+nnoremap <Space>c :NERDTreeCWD<CR>
+let NERDTreeMinimalUI=1
+let NERDTreeDirArrows=0
+let NERDTreeQuitOnOpen = 1
+let NERDTreeIgnore=['\.pyc$', '\~$']
+let NERDTreeShowLineNumbers = 1
+let NERDTreeWinSize = 25
+
+function! NERDTreeQuit()
+  redir => buffersoutput
+  silent buffers
+  redir END
+"                     1BufNo  2Mods.     3File           4LineNo
+  let pattern = '^\s*\(\d\+\)\(.....\) "\(.*\)"\s\+line \(\d\+\)$'
+  let windowfound = 0
+
+  for bline in split(buffersoutput, "\n")
+    let m = matchlist(bline, pattern)
+
+    if (len(m) > 0)
+      if (m[2] =~ '..a..')
+        let windowfound = 1
+      endif
+    endif
+  endfor
+
+  if (!windowfound)
+    quitall
+  endif
+endfunction
+autocmd WinEnter * call NERDTreeQuit()
 " }}}
 
 " General {{{
