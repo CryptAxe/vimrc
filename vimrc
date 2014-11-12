@@ -31,10 +31,15 @@ Plugin 'szw/vim-ctrlspace'
 "Color Schemes
 Plugin 'vim-scripts/wombat256.vim'
 
+Plugin 'zefei/cake16'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'larssmit/vim-getafe'
+
 call vundle#end()            " required
 " }}}
 
 " Plugin Settings {{{
+let g:solarized_termcolors=256
 let g:windowswap_map_keys = 0 "prevent default bindings
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 " }}}
@@ -85,6 +90,8 @@ autocmd WinEnter * call NERDTreeQuit()
 
 " General {{{
 
+set colorcolumn=79
+colorscheme gruvbox
 set nocompatible
 filetype off
 set foldmethod=marker
