@@ -29,7 +29,7 @@ Plugin 'szw/vim-ctrlspace'
 "Front End
 
 "Color Schemes
-Plugin 'whatyouhide/vim-gotham'
+Plugin 'vim-scripts/wombat256.vim'
 
 call vundle#end()            " required
 " }}}
@@ -175,7 +175,7 @@ map <Space>b <Plug>CamelCaseMotion_b
 map <Space>e <Plug>CamelCaseMotion_e
 " }}}
 
-colorscheme gotham256
+colorscheme wombat256mod
 
 " Highlight working line
 if v:version > 700
