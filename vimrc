@@ -11,7 +11,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'kristijanhusak/vim-multiple-cursors'
 Plugin 'joom/vim-commentary'
 Plugin 'vim-scripts/Align'
-jaxbot/semantic-highlight.vim
+Plugin 'jaxbot/semantic-highlight.vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'jiangmiao/auto-pairs'
