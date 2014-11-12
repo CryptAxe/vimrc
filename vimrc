@@ -30,7 +30,7 @@ Plugin 'szw/vim-ctrlspace'
 
 "Color Schemes
 Plugin 'vim-scripts/wombat256.vim'
-
+Plugin 'morhetz/gruvbox'
 Plugin 'zefei/cake16'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'larssmit/vim-getafe'
