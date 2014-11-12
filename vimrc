@@ -89,7 +89,7 @@ set linespace=3
 autocmd BufWritePre * :%s/\s\+$//e
 
 " Highlight characters that go over 80 spaces
-callmatchadd('ColorColumn', '\%81v'. red)
+callmatchadd('ColorColumn', '\%81v', red)
 
 " }}}
 
