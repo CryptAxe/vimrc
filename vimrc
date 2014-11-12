@@ -5,8 +5,6 @@ call vundle#begin()
 Plugin 'gmarik/vundle'
 
 Plugin 'bling/vim-airline'
-Plugin 'bkad/CamelCaseMotion'
-Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'kristijanhusak/vim-multiple-cursors'
 Plugin 'joom/vim-commentary'
