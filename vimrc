@@ -24,7 +24,8 @@ Plugin 'ervandew/supertab'
 Plugin 'ConradIrwin/vim-bracketed-paste'
 Plugin 'gcmt/wildfire.vim'
 Plugin 'Yggdroot/indentLine'
-Plugin 'szw/vim-ctrlspace' 
+Plugin 'szw/vim-ctrlspace'
+Plugin 'Valloric/YouCompleteMe'
 
 "Front End
 
