@@ -10,6 +10,11 @@ After you backup your `~/.vimrc` file and `~/.vim/` folder (this is not importan
 ```bash
 echo "runtime vimrc" > ~/.vimrc && mkdir ~/.vim && cd ~/.vim && git clone https://github.com/travis2861/vim-starter.git . &&  cp .tmux.conf ~/ && git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim && vim +PluginInstall
 ```
+(Run this shit after)
+Compiling YCM **with** semantic support for C-family languages:
+
+    cd ~/.vim/bundle/YouCompleteMe
+    ./install.sh --clang-completer
 
 You're all set! Enjoy!
 
