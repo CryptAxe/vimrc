@@ -93,7 +93,7 @@ set nocompatible
 filetype off
 set foldmethod=marker
 set linebreak
-
+let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf.py'
 set number
 
 syntax on
