@@ -138,18 +138,6 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 " Some Useful Key Mappings {{{
 
-"Split swap
-nmap <Tab> :CtrlPBuffer<CR>
-nmap <Leader>f :CtrlPLine<CR>
-nnoremap <silent> <Leader>sw :call WindowSwap#EasyWindowSwap()<CR>
-nmap <Leader>` :call WindowSwap#EasyWindowSwap()<CR><Leader>[:call WindowSwap#EasyWindowSwap()<CR>
-
-"for unhighlighing the selections
-nmap <Space>x :let @/=''<CR>
-
-"split switch
-nnoremap <Leader>[ <C-W>w
-
 "System clipboard
 vmap <Leader>y "+y
 vmap <Leader>d "+d
