@@ -155,9 +155,6 @@ vmap y ygv<Esc>
 "Reload vimrc
 nmap <F5> :source ~/.vimrc<CR>
 
-"New Tab
-nmap <Leader>n :tabnew<CR>
-
 "Paste mode toggle
 set pastetoggle=<F5><F5>
 
