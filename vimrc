@@ -138,6 +138,9 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 " Some Useful Key Mappings {{{
 
+"Deselecting highlights
+nmap <Space>x :let @/=''<CR>
+
 "System clipboard
 vmap <Leader>y "+y
 vmap <Leader>d "+d
