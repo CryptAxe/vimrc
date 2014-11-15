@@ -14,7 +14,6 @@ Plugin 'vim-scripts/Align'
 Plugin 'marcweber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'jaxbot/semantic-highlight.vim'
-Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'wesQ3/vim-windowswap'
@@ -26,6 +25,7 @@ Plugin 'gcmt/wildfire.vim'
 Plugin 'Yggdroot/indentLine'
 Plugin 'szw/vim-ctrlspace'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'SirVer/ultisnips'
 
 "Front End
 
@@ -97,6 +97,7 @@ set linebreak
 let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf.py'
 let g:ycm_autoclose_preview_window_after_completion = 1
 let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:UltiSnipsExpandTrigger="<Leader><Tab>"
 set number
 
 syntax on
