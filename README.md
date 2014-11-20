@@ -28,14 +28,11 @@ You're all set! Enjoy!
 * `<Leader>P`: Paste above, from system clipboard
 * `<F5><F5>`: Toggle paste mode. (Not important if you're using the shortcuts above.)
 * `<F5>`: Reload Vim settings
-* `<Leader>n`: New empty tab.
 * `<Space>x`: Remove search highlight.
 * `<Leader>]`: Open/Close NERDTree
-* `<Leader>[` : Navigate between split views
 * `<Tab>`: Buffer list (Normal Mode)
 * `C-p`: Fuzzy finder
 * `C-Space` : Buffer Switcher (I have no idea of the exact word) 
-* ``<Leader>` ``: Swap the positions of the open splits
 * `<Space>w`: Next sub-word in a camel cased word
 * `<Space>b`: Previous sub-word in a camel cased word
 * `<Space>e`: End of sub-word in a camel cased word
