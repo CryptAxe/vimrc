@@ -46,6 +46,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 0 "change 0 to 1 if you have a powerline font
 set laststatus=2
 set t_Co=256
+let g:airline_section_y = '%{strftime("%c")}'
 " }}}
 
 " NERDTree {{{
