@@ -37,6 +37,7 @@ You're all set! Enjoy!
 * `<Space>b`: Previous sub-word in a camel cased word
 * `<Space>e`: End of sub-word in a camel cased word
 * `C-n`: Add the next occurrence of the selection to the multiple cursor selection
+* `:retab` "retabs" your file acording to vimrc e.g. replaces all tabs with spaces
 
 Other functions should work as expected. You can define key mappings for your own usage by editing the file `~/.vim/vimrc`, and you are certainly encouraged to do so. That's how you can get the most out of Vim.
 
