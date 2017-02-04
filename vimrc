@@ -169,3 +169,6 @@ map <Space>e <Plug>CamelCaseMotion_e
 " Highlight chars over 80
 highlight OverLength ctermbg=darkred ctermfg=white guibg=#FFD9D9
 match OverLength /\%>80v.\+/
+
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
