@@ -6,6 +6,7 @@ Plugin 'gmarik/vundle'
 
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcomment'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'kristijanhusak/vim-multiple-cursors'
 Plugin 'joom/vim-commentary'
@@ -14,11 +15,8 @@ Plugin 'marcweber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'jaxbot/semantic-highlight.vim'
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'wesQ3/vim-windowswap'
-Plugin 'tpope/vim-surround'
 Plugin 'kien/ctrlp.vim'
 Plugin 'ConradIrwin/vim-bracketed-paste'
-Plugin 'gcmt/wildfire.vim'
 Plugin 'Yggdroot/indentLine'
 Plugin 'szw/vim-ctrlspace'
 Plugin 'SirVer/ultisnips'
@@ -26,7 +24,7 @@ Plugin 'SirVer/ultisnips'
 "Front End
 
 "Color Schemes
-Plugin 'morhetz/gruvbox'
+Plugin 'flazz/vim-colorschemes'
 
 call vundle#end()            " required
 " }}}
@@ -86,7 +84,7 @@ autocmd WinEnter * call NERDTreeQuit()
 
 set colorcolumn=80
 set background=dark
-colorscheme gruvbox
+colorscheme molokai
 set nocompatible
 filetype off
 set foldmethod=marker
