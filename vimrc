@@ -20,6 +20,7 @@ Plugin 'ConradIrwin/vim-bracketed-paste'
 Plugin 'Yggdroot/indentLine'
 Plugin 'szw/vim-ctrlspace'
 Plugin 'SirVer/ultisnips'
+Plugin 'wesQ3/vim-windowswap'
 
 "Front End
 
