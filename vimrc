@@ -6,7 +6,6 @@ Plugin 'gmarik/vundle'
 
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/nerdcomment'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'kristijanhusak/vim-multiple-cursors'
 Plugin 'joom/vim-commentary'
